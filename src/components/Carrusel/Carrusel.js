@@ -1,34 +1,32 @@
-import React from "react";
-import Slider from "react-slick";
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import React from 'react';
+import { Carousel } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
 import carruselUno from '../Assets/carruselUno.png';
 import carruselDos from '../Assets/carruselDos.png';
 import carruselTres from '../Assets/carruselTres.png';
-import './Carrusel.css';
 
-const Carrusel = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-    };
-
+function Carrusel() {
     return (
-        <Slider className="contieneCarrusel" {...settings}>
-            <div className="contieneImgCarrusel">
-            <img src={carruselUno} className="carrusel" alt="Imagen de carruse" />
-            </div>
-            <div className="contieneImgCarrusel">
-            <img src={carruselDos} className="carrusel" alt="Imagen de carruse" />
-            </div>
-            <div className="contieneImgCarrusel">
-            <img src={carruselTres} className="carrusel" alt="Imagen de carruse" />
-            </div>
-        </Slider>
-    )
-};
+      <Carousel>
+        <Carousel.Item>
+        <img src={carruselDos} alt="Imagen de carrusel" 
+            className='d-block w-100 carrusel' />
+        </Carousel.Item>
 
+        <Carousel.Item>
+          <img src={carruselUno} alt="Imagen de carruse" 
+            className='d-block w-100 carrusel' />
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img src={carruselTres} alt="Imagen de carruse" 
+            className='d-block w-100 carrusel' />
+        </Carousel.Item>
+        {/* Add more Carousel.Items for additional slides */}
+      </Carousel>
+    );
+  }
+  
 export default Carrusel;
+
+

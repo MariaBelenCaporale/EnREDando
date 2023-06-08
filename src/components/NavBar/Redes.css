@@ -1,0 +1,44 @@
+.containerRedes{
+    display: flex ;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: flex-end;
+    height: 46px;
+    width: 100%;
+}
+.me-autos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+}
+.contactos {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 3rem;
+}
+
+.tel {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto Condensed'
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto Condensed'
+}
+
+.redW {
+    height: 24px;
+    width: 24px;
+}
+
+.redM {
+    height: 24px;
+    width: 24px;
+}

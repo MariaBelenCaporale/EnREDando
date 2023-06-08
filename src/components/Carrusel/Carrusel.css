@@ -1,21 +1,2 @@
 
-.contieneImgCarrusel {
-    width: 100%;
-    align-items: center;
-    justify-content: center ; 
-    display: flex !important;
-}
 
-.carrusel {
-    width: 1127px;
-    height: 80vh;
-
-}
-
-.slick-next {
-    right: 0;
-}
-
-.slick-prev {
-    margin-left: 40px;
-}

@@ -26,15 +26,15 @@ import Redes from './Redes';
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
-                <Navbar.Brand href="#home">
+                <NavLink to='/' href="#home">
                 <img src={logo} alt='logo enredandosalud'/>
-            </Navbar.Brand>
-                    <Nav.Link href="#QuienesSomos">¿QUIÉNES SOMOS?</Nav.Link>
-                    <Nav.Link href="#QueHacemos">¿QUÉ HACEMOS?</Nav.Link>
-                    <Nav.Link href="#QueOfrecemos">¿QUÉ OFRECEMOS?</Nav.Link>
-                    <Nav.Link href="#Agenda">AGENDA</Nav.Link>
-                    <Nav.Link href="#Colaboracion">COLABORACIÓN</Nav.Link>
-                    <Nav.Link href="#Contacto">CONTACTO</Nav.Link>
+            </NavLink>
+                    <NavLink className='link' to='QuienesSomos' href="#QuienesSomos">¿QUIÉNES SOMOS?</NavLink>
+                    <NavLink href="#QueHacemos">¿QUÉ HACEMOS?</NavLink>
+                    <NavLink href="#QueOfrecemos">¿QUÉ OFRECEMOS?</NavLink>
+                    <NavLink href="#Agenda">AGENDA</NavLink>
+                    <NavLink href="#Colaboracion">COLABORACIÓN</NavLink>
+                    <NavLink href="#Contacto">CONTACTO</NavLink>
                 </Nav>
                
                 </Navbar.Collapse>

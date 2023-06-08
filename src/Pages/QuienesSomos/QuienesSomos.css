@@ -1,0 +1,62 @@
+.containerQuienes {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quienes {
+    margin-top: 20px;
+    height: 45px;
+    width: 100%;
+}
+
+.tituloQuienes {
+    font-family: 'Roboto Condensed';
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+
+.containerCuadro {
+    margin-top: 40px;
+    background-color: #F3F3F3;
+    width: 80%;
+    height: auto;
+    display: flex;
+
+}
+
+.cuadroUno {
+    height: 640px;
+    width: 415px;
+
+
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.imgUno {
+    padding:  40px 39px 22px 39px;
+}
+
+.tituloUno {
+    font-family: 'Roboto Condensed';
+font-size: 24px;
+font-weight: 700;
+}
+
+.textoUno {
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-weight: 300;
+    padding:  40px 39px 22px 39px;
+}

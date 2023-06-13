@@ -1,10 +1,5 @@
 import logo from '../Assets/logo.png';
-import mail from '../Assets/mail.png';
-import Whatsapp from '../Assets/Whatsapp.png';
-import íconofb from '../Assets/íconofb.png';
-import íconoinstagram from '../Assets/íconoinstagram.png';
-import iconoTwitter from '../Assets/iconoTwitter.png';
-import íconolinkedin from '../Assets/íconolinkedin.png';
+
 
 import './NavBar.css';
 import { NavLink } from 'react-router-dom';

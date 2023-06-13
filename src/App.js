@@ -5,6 +5,7 @@ import Home from './Pages/Home/Home';
 import QueHacemos from './Pages/QueHacemos/QueHacemos';
 import QuienesSomos from './Pages/QuienesSomos/QuienesSomos';
 import QueOfrecemos from './Pages/QueOfrecemos/QueOfrecemos';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <BrowserRouter>
@@ -23,7 +24,7 @@ function App() {
           <Route path="/item/:id" element={<ItemDetailContainer />} />
           <Route path='/Cart' element={<Cart />} /> */}
         </Routes>
-      {/* <Footer /> */}
+   <Footer />
     </BrowserRouter>  
   );
 }

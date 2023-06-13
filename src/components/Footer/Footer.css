@@ -1,0 +1,55 @@
+.containerFooter {
+    width: 100%;
+    display: flex;
+    padding-top: 5rem;
+    flex-direction: row;
+}
+
+.containerLogoRedesFooter {
+    background-color: #A7FFCD;
+    width: 20%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.containerDatosFooter {
+    background-color: #EEF9F2;
+    width: 80%;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.containerLogoFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerRedesSocialesFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoFooter {
+    width: 170px;
+}
+
+.datosFooter {
+    font-size: 20px;
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+}
+
+.subFooter {
+    font-size: 20px;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+}

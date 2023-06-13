@@ -24,13 +24,15 @@
 .tel {
     display: flex;
     flex-direction: row;
-    font-family: 'Roboto Condensed'
+    font-family: 'Roboto Condensed';
+    gap: .5rem;
 }
 
 .mail {
     display: flex;
     flex-direction: row;
-    font-family: 'Roboto Condensed'
+    font-family: 'Roboto Condensed';
+    gap: .5rem;
 }
 
 .redW {

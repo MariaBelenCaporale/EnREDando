@@ -2,7 +2,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import Home from './Pages/Home/Home';
+import QueHacemos from './Pages/QueHacemos/QueHacemos';
 import QuienesSomos from './Pages/QuienesSomos/QuienesSomos';
+import QueOfrecemos from './Pages/QueOfrecemos/QueOfrecemos';
 function App() {
   return (
     <BrowserRouter>
@@ -11,6 +13,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/QuienesSomos" element={<QuienesSomos />} />
+          <Route path="/QueHacemos" element={<QueHacemos />} />
+          <Route path="/QueOfrecemos" element={<QueOfrecemos />} />
 
           
           {/* <Route path="/Experiencias" element={<Experiencias />} />

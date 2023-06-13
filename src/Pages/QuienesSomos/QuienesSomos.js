@@ -20,21 +20,21 @@ const QuienesSomos = () => {
             <div className='containerCuadro'>
                 <div className='cuadroUno'>
                     <img className='imgUno' src={enredandoNosotros} />
-                    <p className='tituloUno'>SOBRE NOSOTROS</p>
+                    <h1 className='tituloUno'>SOBRE NOSOTROS</h1>
                     <p className='textoUno'>La misión del espacio es la igualdad entre mujeres y hombres, el pleno respeto de los derechos humanos, mejorar el acceso de adolescentes, jóvenes y mujeres a la educación.
 </p>
                 </div>
 
                 <div className='cuadroUno'>
                     <img className='imgUno' src={equipo} />
-                    <p className='tituloUno'>NUESTRO EQUIPO</p>
+                    <h1 className='tituloUno'>NUESTRO EQUIPO</h1>
                     <p className='textoUno'>Nuestro equipo esta conformado por nuestros miembros fundadores, el equipo de proyectos, de educadores, comunicadores, administrativo y nuestros miembros activos.
                     </p>
                 </div>
 
                 <div className='cuadroUno'>
                     <img className='imgUno' src={fundacion} />
-                    <p className='tituloUno'>NUESTROS SOCIOS</p>
+                    <h1 className='tituloUno'>NUESTROS SOCIOS</h1>
                     <p className='textoUno'>En el  año 2019 gracias al impulso y apoyo institucional de la Fundación para el Estudio e Investigación de la Mujer, hemos llevado adelante el Ciclo de Formación de Educadorxs en Salud Sexual y Reproductiva.
                     </p>
                 </div>

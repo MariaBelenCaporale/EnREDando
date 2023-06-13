@@ -30,8 +30,8 @@ import Redes from './Redes';
                 <img src={logo} alt='logo enredandosalud'/>
             </NavLink>
                     <NavLink className='link' to='QuienesSomos' href="#QuienesSomos">¿QUIÉNES SOMOS?</NavLink>
-                    <NavLink href="#QueHacemos">¿QUÉ HACEMOS?</NavLink>
-                    <NavLink href="#QueOfrecemos">¿QUÉ OFRECEMOS?</NavLink>
+                    <NavLink className='link' to='QueHacemos' href="#QueHacemos">¿QUÉ HACEMOS?</NavLink>
+                    <NavLink className='link' to='QueOfrecemos' href="#QueOfrecemos">¿QUÉ OFRECEMOS?</NavLink>
                     <NavLink href="#Agenda">AGENDA</NavLink>
                     <NavLink href="#Colaboracion">COLABORACIÓN</NavLink>
                     <NavLink href="#Contacto">CONTACTO</NavLink>

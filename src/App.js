@@ -6,6 +6,7 @@ import QueHacemos from './Pages/QueHacemos/QueHacemos';
 import QuienesSomos from './Pages/QuienesSomos/QuienesSomos';
 import QueOfrecemos from './Pages/QueOfrecemos/QueOfrecemos';
 import Footer from './components/Footer/Footer';
+import Agenda from './Pages/Agenda/Agenda';
 function App() {
   return (
     <BrowserRouter>
@@ -16,6 +17,7 @@ function App() {
           <Route path="/QuienesSomos" element={<QuienesSomos />} />
           <Route path="/QueHacemos" element={<QueHacemos />} />
           <Route path="/QueOfrecemos" element={<QueOfrecemos />} />
+          <Route path="/Agenda" element={<Agenda />} />
 
           
           {/* <Route path="/Experiencias" element={<Experiencias />} />

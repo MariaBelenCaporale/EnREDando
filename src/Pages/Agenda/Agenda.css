@@ -1,0 +1,153 @@
+.containerAgenda {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.agenda {
+    padding-top: 20px;
+    width: 100%;
+}
+
+.tituloAgenda {
+    font-family: 'Roboto Condensed';
+    font-size: 38px;
+    padding: 20px 0px 20px 0px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.containerCuadroAgenda {
+    width: 1245px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.containerAgen {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 1rem;
+    align-items: center;
+    width: 1245px;
+    justify-content: space-around;
+}
+
+.contieneAgenda {
+    background: #D34B9A;
+    /* box-shadow: 10px 10px 30px rgba(210, 218, 242, 0.87); */
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 40px 30px 30px 30px;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-direction: column;
+}
+
+.dos {
+    background-color: #A8FFCE;
+}
+
+.dosA {
+    color: white;
+}
+
+.tituloAgendaUno {
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.textoQuienesAgenda {
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.containerButtonAgenda {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 10vh;
+}
+
+.rec {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 10vh;
+}
+
+.botonAgenda {
+    background-color: #E185BA;
+    width: 133px;
+    height: 36px;
+    border: none;
+    color: white;
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
+}
+
+.verde {
+    background-color: #72E8A5;
+    color: #14AE5C;
+}
+
+.textoAg {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100px;
+    width: 224px;
+}
+
+/* seccion proximos */
+
+.containerProx {
+    width: 1245px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+.proximosTalleres {
+    gap: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    font-size: 32px;
+}
+
+.textoAgProx {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100px;
+    width: 275px;
+}
+
+.tituloAgProx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 269px;
+}

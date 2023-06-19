@@ -4,8 +4,8 @@ import equipo from '../../components/Assets/equipo.png';
 import historia from '../../components/Assets/historia.png';
 import nosotros from '../../components/Assets/nosotros.png';
 import CarruselEquipo from '../../components/CarruselEquipo/CarruselEquipo';
-import bannerUno from '../../components/Assets/bannerUno.png';
 import fundacion from '../../components/Assets/fundacion.png';
+import bannerQuienes from '../../components/Assets/banner-quienes.png'
 
 const QuienesSomos = () => {
 
@@ -83,19 +83,20 @@ const QuienesSomos = () => {
            
             <div className='containerQuienesUnoB'>
                 <div  iv className='cuadroHistoria'>
-                    <img className='imgHistoria' src={bannerUno} />
+                    
+                
                 <div className='historiaTextos'>
-                    <div className='textosHistoria'>
-                <p className='tituloQuienesHistoriaA'>NUESTROS SOCIOS</p>
-                <p className='textoUnoHistoriaA'>
-                Desde Septiembre del año 2019 gracias al impulso y apoyo institucional de la Fundación para el Estudio e Investigación de la Mujer a partir de nuestra participación en la Alianza Argentina de Organizaciones de la Sociedad Civil en cumplimiento de los compromisos internacionales de la Plataforma de Acción El Cairo, hemos llevado adelante el Ciclo de Formación de Educadorxs en Salud Sexual y Reproductiva para la Prevención de Sífilis y otras ITS con adolescentes y jóvenes de entre 15 y 25 años de la provincia de Santa Fe con apoyo del proyecto “Cerrando Brechas” con financiamiento de la Unión Europea.
+                
+                <div className='textosHistoria'>
+                    <p className='tituloQuienesHistoriaA'>NUESTROS SOCIOS</p>
+                    <p className='textoUnoHistoriaA'>
+                    Desde Septiembre del año 2019 gracias al impulso y apoyo institucional de la Fundación para el Estudio e Investigación de la Mujer a partir de nuestra participación en la Alianza Argentina de Organizaciones de la Sociedad Civil en cumplimiento de los compromisos internacionales de la Plataforma de Acción El Cairo, hemos llevado adelante el Ciclo de Formación de Educadorxs en Salud Sexual y Reproductiva para la Prevención de Sífilis y otras ITS con adolescentes y jóvenes de entre 15 y 25 años de la provincia de Santa Fe con apoyo del proyecto “Cerrando Brechas” con financiamiento de la Unión Europea.
+                    </p>
+                </div>
 
 
-                </p>
                 </div>
-                <img className='imgHistoria' src={fundacion} />
-                </div>
-              
+                <img className='imgHistoria' src={bannerQuienes} />
                 </div>
                 
                 

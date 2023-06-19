@@ -41,7 +41,9 @@ const QueOfrecemos = () => {
                         </p>
                         </div>
                         <div className='containerButton'>
-                        <button className='botonOfrecemos'>VER MÁS</button> 
+                        <button className='botonOfrecemos'>
+                        <a className='linkeado' href="#talleres">VER MÁS  </a>
+                           </button> 
                         </div>
                     </div>
 
@@ -62,7 +64,8 @@ const QueOfrecemos = () => {
                         </div>
 
                         <div className='containerButton'>
-                        <button className='botonOfrecemos'>VER MÁS</button> 
+                        <button className='botonOfrecemos'>
+                        <a className='linkeado' href="#capacitaciones">VER MÁS  </a></button> 
                         </div>
                         
                     </div>
@@ -82,7 +85,9 @@ const QueOfrecemos = () => {
                         </p>
                         </div>
                         <div className='containerButton'>
-                        <button className='botonOfrecemos'>VER MÁS</button> 
+                        <button className='botonOfrecemos'>
+                        <a className='linkeado' href="#material">VER MÁS  </a>
+                        </button> 
                         </div>  
                     </div>       
           
@@ -93,28 +98,33 @@ const QueOfrecemos = () => {
 
                 <div className='sectionTalleres'>
                 
-                <div className='talleres'>
+                <div className='talleres' id='talleres'>
                     <h2>TALLERES</h2>
                     <div className='textosTalleres'>
-                    <p>¡Desarrolla tus habilidades y alcanza tu máximo potencial con nuestra capacitación! Nos enorgullece ofrecer programas de capacitación diseñados para potenciar tus habilidades.  Beneficios de capacitarte con nosotros
+                    <p> ¡Alcanza tu máximo potencial con nuestra capacitación! Beneficios de nuestros talleres.
+
+
+
+
+
+</p>
+                    <p>
+                    1- Oportunidad única para aprender de diferentes temas de salud, educación sexual, entre otros temas.
                     </p>
                     <p>
-                    1- Amplía tus conocimientos: Nuestras capacitaciones están diseñadas por expertos en el campo, lo que te brinda acceso a información actualizada y relevante. Obtendrás nuevos conocimientos y perspectivas que te ayudarán a mantenerte al día. 
+                    2- Brindamos un espacio seguro y confidencial para compartir experiencias y fortalecer vínculos.
                     </p>
                     <p>
-                    2- Desarrollo profesional: La capacitación es una inversión. Nuestros programas están diseñados para abordar temas claves. 
+                    3- Expertos en el campo de la salud brindaron información actualizada y respondieron preguntas.
                     </p>
                     <p>
-                    3- Flexibilidad: Entendemos que todos tenemos horarios ocupados y responsabilidades diarias. Por eso, ofrecemos opciones flexibles de capacitación que se adaptan a tus necesidades. Puedes elegir entre cursos en línea o talleres presenciales, según tu disponibilidad y preferencias.  
-                    </p>
-                    <p>
-                    4- Aprendizaje práctico: Nuestras capacitaciones se enfocan en la aplicación práctica de los conocimientos. A través de ejercicios, estudios de caso y proyectos, podrás poner en práctica lo que aprendes, lo que te permitirá consolidar tus habilidades y enfrentar desafíos reales con confianza. No esperes más para invertir en tu crecimiento profesional.
+                    El objetivo de los talleres es tener una conversación y obtener opiniones, preocupaciones, posibles barreras y necesidades que tienen las personas adolescentes y jóvenes de toda la provincia de Santa Fe 
                     </p>
                     </div>
                 </div>
 
                 <div className='fotosOfrecemos'>
-                <img className='imgOfrecemos' src={chicosUno} alt='chicos en clase'/>
+
                 <img className='imgOfrecemos' src={chicosDos} alt='chicos en clase'/>
                 </div> 
             </div>
@@ -129,27 +139,32 @@ const QueOfrecemos = () => {
             <div className='sectionTalleres'>
                 
                 <div className='talleres'>
-                    <h2>CAPACITACIONES</h2>
+                    <h2 id='capacitaciones'>CAPACITACIONES</h2>
                     <div className='textosTalleres'>
-                    <p>¡Desarrolla tus habilidades y alcanza tu máximo potencial con nuestra capacitación! Nos enorgullece ofrecer programas de capacitación diseñados para potenciar tus habilidades.  Beneficios de capacitarte con nosotros
+                    <p>¡Desarrolla tus habilidades y alcanza tu máximo potencial con nuestras capacitaciones!. Beneficios de capacitarte con nosotros.
+ 
+
+
+
                     </p>
                     <p>
-                    1- Amplía tus conocimientos: Nuestras capacitaciones están diseñadas por expertos en el campo, lo que te brinda acceso a información actualizada y relevante. Obtendrás nuevos conocimientos y perspectivas que te ayudarán a mantenerte al día. 
+                    1- 
+Amplía tus conocimientos: Nuestras capacitaciones están diseñadas por expertos en el campo, lo que te brinda acceso a información actualizada y relevante.
                     </p>
                     <p>
                     2- Desarrollo profesional: La capacitación es una inversión. Nuestros programas están diseñados para abordar temas claves. 
                     </p>
                     <p>
-                    3- Flexibilidad: Entendemos que todos tenemos horarios ocupados y responsabilidades diarias. Por eso, ofrecemos opciones flexibles de capacitación que se adaptan a tus necesidades. Puedes elegir entre cursos en línea o talleres presenciales, según tu disponibilidad y preferencias.  
+                    3- Flexibilidad: Ofrecemos opciones flexibles de capacitación que se adaptan a tus necesidades. Puedes elegir entre cursos en línea o talleres presenciales, según tu disponibilidad y preferencias.  
                     </p>
                     <p>
-                    4- Aprendizaje práctico: Nuestras capacitaciones se enfocan en la aplicación práctica de los conocimientos. A través de ejercicios, estudios de caso y proyectos, podrás poner en práctica lo que aprendes, lo que te permitirá consolidar tus habilidades y enfrentar desafíos reales con confianza. No esperes más para invertir en tu crecimiento profesional.
+                    4- Aprendizaje práctico: Nuestras capacitaciones se enfocan en la aplicación práctica de los conocimientos.
                     </p>
                     </div>
                 </div>
 
                 <div className='fotosOfrecemos'>
-                <img className='imgOfrecemos' src={capaUno} alt='chicos en clase'/>
+
                 <img className='imgOfrecemos' src={capaDos} alt='chicos en clase'/>
                 </div> 
             </div>
@@ -168,18 +183,41 @@ const QueOfrecemos = () => {
             <div className='sectionTalleres'>
                 
                 <div className='talleres'>
-                    <h2>MATERIAL EDUCATIVO</h2>
+                    <h2 id='material'>MATERIAL EDUCATIVO</h2>
                     <div className='textosTalleres'>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor iiqua. Ut enim ad minim veniam,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor iiqua. Ut enim ad minim veniam,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor iiqua. Ut enim ad minim veniam,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor iiqua. Ut enim ad minim veniam,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor iiqua. Ut enim ad minim veniam,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor iiqua. Ut enim ad minim veniam,"L
+                    <p>¡Desarrolla tus habilidades y alcanza tu máximo potencial con nuestro material educativo. 
+
+
+
+
+
+
+ 
+
+
+
                     </p>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor iiqua. Ut enim ad minim veniam,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor iiqua. Ut enim ad minim veniam,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor iiqua. Ut enim ad minim veniam,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor iiqua. Ut enim ad minim veniam,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor iiqua. Ut enim ad minim veniam,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor iiqua. Ut enim ad minim veniam,"L
+                    <p>
+                    1- Material educativo con información actualizada y relevante. 
+                    </p>
+                    <p>
+                    2- Material educativo diseñados para abordar temas claves. 
+                    </p>
+                    <p>
+                    3- Oportunidad de aprender de diferentes temas de salud, educación sexual, entre otros temas. 
+                    </p>
+                    <p>
+                    4- Expertos en el campo de la salud brindaron información estos materiales educativos actualizados y respondieron preguntas.
+                    </p>
+                    <p>
+                    5- Flexibilidad: Ofrecemos material educativo en línea o física de acuerdo a tu  tu disponibilidad y preferencia.
                     </p>
                    
                     </div>
                 </div>
 
                 <div className='fotosOfrecemos'>
-                <img className='imgOfrecemos' src={materialUno} alt='chicos en clase'/>
+
                 <img className='imgOfrecemos' src={materialDos} alt='chicos en clase'/>
                 </div> 
             </div>

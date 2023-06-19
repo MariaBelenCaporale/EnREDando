@@ -162,7 +162,7 @@
 }
 
 .cuadroHistoria {
-
+    align-items: center;
     width: 1245px;
     display: flex;
     margin-bottom: 5rem;
@@ -172,11 +172,19 @@
 .historiaTextos {
     display: flex;
     flex-direction: row;
+    width: 1013px;
 }
 
 .textosHistoria {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
+}
+
+.textoUnoHistoriaA {
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
 }

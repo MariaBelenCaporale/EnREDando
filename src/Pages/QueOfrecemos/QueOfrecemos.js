@@ -2,14 +2,11 @@ import './QueOfrecemos.css';
 import hoja from '../../components/Assets/ofrecemos/hoja.png';
 import carpeta from '../../components/Assets/ofrecemos/carpeta.png';
 import parlante from '../../components/Assets/ofrecemos/parlante.png';
-import chicosUno from '../../components/Assets/ofrecemos/chicosUno.png';
 import chicosDos from '../../components/Assets/ofrecemos/chicosDos.png';
 import bannerUno from '../../components/Assets/ofrecemos/bannerUno.png';
 import bannerDos from '../../components/Assets/ofrecemos/bannerDos.png';
 import bannerTres from '../../components/Assets/ofrecemos/bannerTres.png';
-import capaUno from '../../components/Assets/ofrecemos/capaUno.png';
 import capaDos from '../../components/Assets/ofrecemos/capaDos.png';
-import materialUno from '../../components/Assets/ofrecemos/materialUno.png';
 import materialDos from '../../components/Assets/ofrecemos/materialDos.png';
 
 

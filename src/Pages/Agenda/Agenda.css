@@ -96,12 +96,15 @@
     width: 133px;
     height: 36px;
     border: none;
-    color: white;
-    font-family: 'Roboto Condensed';
-    font-weight: 700;
-    font-size: 16px;
     border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
+}
+
+.linkeadoAgenda {
+    color: white !important;
+    font-family: 'Roboto Condensed' !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
 }
 
 .verde {
@@ -150,4 +153,150 @@
     align-items: center;
     justify-content: center;
     width: 269px;
+}
+
+.talleresSection {
+    width: 1245px;
+    text-align: left;
+}
+
+.sectionTalleresRealizados {
+    width: 1245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #E9FAF0;
+    height: auto;
+    padding: 40px 40px 40px 40px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.dataTaller {
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.textosTa {
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+.talleresRea {
+    gap: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 1245px;
+}
+
+.subti {
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.fotosRealizados {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.datas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+/*reconocimientos*/
+
+.tituloReco {
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    width: 80%;
+}
+
+.containerReconocimientos {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    border-radius: 10px 10px 0px 0px;
+    background-color:  #F6DBEB;;
+}
+
+.containerCuadroReco {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.textoUnoReco {
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 90%;
+    
+}
+
+.cuadroReco {
+    width: 1245px;
+    display: flex;
+    margin-bottom: 5rem;
+    padding-bottom: 30px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.recoTextos {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0px 0px 40px;
+}
+
+/**/
+
+.containerRecoUno {
+    background-color: #E9FAF0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.recoSection {
+    width: 1245px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3rem;
 }

@@ -20,15 +20,15 @@ const QuienesSomos = () => {
             <div className='containerCuadro'>
                 <div className='cuadroUno'>
                     <img className='imgUno' src={enredandoNosotros} />
-                    <h1 className='tituloUno'>SOBRE NOSOTROS</h1>
-                    <p className='textoUno'>La misión del espacio es la igualdad entre mujeres y hombres, el pleno respeto de los derechos humanos, mejorar el acceso de adolescentes, jóvenes y mujeres a la educación.
+                    <h1 className='tituloUno'>SOBRE ENREDANDO</h1>
+                    <p className='textoUno'>EnREDando Salud constituye una red de trabajo colaborativo para la transformación socio-inclusiva con eje en la salud integral, los derechos humanos y la educación con adolescentes, jóvenes, mujeres y personas LGBTIQ+.
 </p>
                 </div>
 
                 <div className='cuadroUno'>
                     <img className='imgUno' src={equipo} />
                     <h1 className='tituloUno'>NUESTRO EQUIPO</h1>
-                    <p className='textoUno'>Nuestro equipo esta conformado por nuestros miembros fundadores, el equipo de proyectos, de educadores, comunicadores, administrativo y nuestros miembros activos.
+                    <p className='textoUno'>Nuestro equipo esta conformado por fundadores, por el equipo de desarrollo de proyectos, el equipo de educadores, el equipo de comunicadores,  el departamento administrativo y miembros activos.
                     </p>
                 </div>
 

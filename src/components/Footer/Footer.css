@@ -1,8 +1,11 @@
 .containerFooter {
     width: 100%;
     display: flex;
-    padding-top: 5rem;
     flex-direction: row;
+    background-color: #A7FFCD;
+    height: 240px;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .containerLogoRedesFooter {
@@ -16,12 +19,9 @@
 }
 
 .containerDatosFooter {
-    background-color: #EEF9F2;
-    width: 80%;
-    height: 240px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
 }
 
@@ -52,4 +52,48 @@
     font-size: 20px;
     font-family: 'Roboto Condensed';
     font-weight: 300;
+}
+
+.footerText {
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D34B9A;
+}
+
+.containerTextFooter {
+    margin-left: 83px;
+    background-color: #A7FFCD;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20%;
+    height: 178px;
+}
+
+.containerWsp {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.botonWsp {
+    border: none;
+    background-color: #2DDB78;
+    height: 86px;
+    width: 86px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 100%;
+    margin-right: 63px;
+}
+
+.contieneContact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }

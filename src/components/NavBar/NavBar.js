@@ -29,7 +29,7 @@ import Redes from './Redes';
                     <NavLink className='link' to='QueOfrecemos' href="#QueOfrecemos">¿QUÉ OFRECEMOS?</NavLink>
                     <NavLink className='link' to='Agenda' href="#Agenda">AGENDA</NavLink>
                     <NavLink className='link' to='Colaboracion' href="#Colaboracion">COLABORACIÓN</NavLink>
-                    <NavLink href="#Contacto">CONTACTO</NavLink>
+                    <NavLink className='link' to='Contacto' href="#Contacto">CONTACTO</NavLink>
                 </Nav>
                
                 </Navbar.Collapse>

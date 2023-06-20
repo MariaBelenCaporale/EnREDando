@@ -8,6 +8,7 @@ import QueOfrecemos from './Pages/QueOfrecemos/QueOfrecemos';
 import Footer from './components/Footer/Footer';
 import Agenda from './Pages/Agenda/Agenda';
 import Colaboracion from './Pages/Colaboracion/Colaboracion';
+import Contacto from './Pages/Contacto/Contacto';
 function App() {
   return (
     <BrowserRouter>
@@ -20,6 +21,7 @@ function App() {
           <Route path="/QueOfrecemos" element={<QueOfrecemos />} />
           <Route path="/Agenda" element={<Agenda />} />
           <Route path="/Colaboracion" element={<Colaboracion />} />
+          <Route path="/Contacto" element={<Contacto />} />
         </Routes>
         
         <Footer />

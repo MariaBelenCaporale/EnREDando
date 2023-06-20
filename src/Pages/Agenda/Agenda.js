@@ -6,10 +6,13 @@ import chicosDos from '../../components/Assets/ofrecemos/chicosDos.png';
 import recoUno from '../../components/Assets/recoUno.png';
 import recoDos from '../../components/Assets/recoDos.png';
 import recoRosa from '../../components/Assets/recoRosa.png';
+import apertura from '../../components/Assets/apertura.png';
+import salud from '../../components/Assets/salud.png';
+import Footer from '../../components/Footer/Footer';
 
 const Agenda = () => {
     return (
-        <div>
+        <div className='todoAgenda'>
         <div className='containerAgenda'>
             <div className='agenda'>
                 <p className='tituloAgenda'>AGENDA</p>
@@ -48,7 +51,7 @@ const Agenda = () => {
 
                         <div className='containerButtonAgenda'>
                             <button className='botonAgenda verde'>
-                                <a className='linkeadoAgenda' href="#talleresRealizados">VER MÁS  </a>    
+                                <a className='linkeadoAgenda agen' href="#talleresRealizados">VER MÁS  </a>    
                             </button> 
                         </div>
                     </div>  
@@ -245,7 +248,7 @@ const Agenda = () => {
 
                     <div className='containerRecoUno'>
                     <img src={recoDos} alt='Formación de educacion sexual' />
-                        <div className='recoTextos'>
+                        <div className='recoTextosDos'>
                         <p className='tituloReco'>Aliada Comprometida con las Coaliciones de Acción del Foro Generación igualdad de París </p>
             
                         <p className='textoUnoReco'>
@@ -253,14 +256,35 @@ const Agenda = () => {
                         </p>
                         </div>
                     </div>
+
+
+                    <div className='containerReconocimientos'>
+                    <img src={apertura} alt='Formación de educacion sexual' />
+                        <div className='recoTextos'>
+                            <p className='tituloReco'>Declaración de Interés por parte del Concejo Municipal de la Municipalidad de Rosario</p>
+                
+                            <p className='textoUnoReco'>EnREDando Salud por parte del Concejo Municipal de la Municipalidad de Rosario, según Decreto Nº 61.164 por “promover acciones en favor de los derechos de las juventudes y acompañar a los adolescentes y jóvenes en la búsqueda de respuestas frente a las múltiples barreras que encuentran para hacer efectivos sus derechos y poder ejercer su sexualidad de manera libre y segura”.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div className='containerRecoUno'>
+                    <img src={salud} alt='Formación de educacion sexual' />
+                        <div className='recoTextosDos'>
+                        <p className='tituloReco'>Coordinación de la Comisión de Salud Sexual y Reproductiva del Consejo Asesor de Salud Adolescente y Juvenil del Ministerio de Salud</p>
+            
+                        <p className='textoUnoReco'>
+                        En año el 2022 se asume esta coordinación del Ministerio de Salud de la Nación Argentina, se ha tenido presencia oficial por primera vez en la Articulación de Jóvenes de América Latina y el Caribe y del Foro Feminista en el marco de la XV Conferencia Regional de la Mujer (CRM), Declarados de Interés por el proyecto Primera App de Salud Sexual y Reproductiva de Rosario por la Cámara de Diputadas y Diputados de la Provincia de Santa Fe.
+                        </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-
-
-
         </div>
         </div>
+       
     )
 };
 

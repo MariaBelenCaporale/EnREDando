@@ -1,0 +1,207 @@
+.todoColaboracion {
+    height: 129vh;
+}
+
+.containerColaboracion {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.colaboracion {
+    padding-top: 20px;
+    width: 100%;
+}
+
+.tituloColaboracion {
+    font-family: 'Roboto Condensed';
+    font-size: 38px;
+    padding: 20px 0px 20px 0px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.containerCuadroColaboracion {
+    width: 1245px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.containerColab {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 1rem;
+    align-items: center;
+    width: 1245px;
+    justify-content: space-around;
+}
+
+.contieneColab {
+    background: #D34B9A;
+    /* box-shadow: 10px 10px 30px rgba(210, 218, 242, 0.87); */
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 40px 30px 30px 30px;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-direction: column;
+}
+
+.tituloColabUno {
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.colab {
+    color: white;
+}
+
+.textoCo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 153px;
+    width: 265px;
+}
+
+.textoQuienesCol {
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.containerButtonCol {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 10vh;
+}
+
+.botonColab {
+    background-color: #E185BA;
+    width: 133px;
+    height: 36px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.linkeadoColab {
+    color: white !important;
+    font-family: 'Roboto Condensed' !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+}
+
+.dosColab {
+    background-color: #A8FFCE;
+}
+
+.verdeColab {
+    background-color: #72E8A5;
+    color: #14AE5C;
+}
+
+.colabo {
+    color: #14AE5C !important;
+}
+
+/**/
+
+.aporSection {
+    width: 1245px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.tituloAporta {
+    font-family: 'Roboto Condensed';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+
+/**/
+
+.bannerApor {
+    background-color: #F6DBEB;
+    height: 292px;
+    width: 1193px;
+    left: 41px;
+    top: 579px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.donar {
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.textoDonar {
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.imagenDonar {
+    height: 223px;
+    width: 304px;
+    left: 72px;
+    top: 617px;
+}
+
+.botonAporte {
+    background-color: #D34B9A;
+    width: 195px;
+    height: 39px;
+    border-radius: 10px;
+    border: none;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.linkeadoApor {
+    font-family: 'Roboto Condensed';
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white !important;
+}
+
+.contieneDonar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

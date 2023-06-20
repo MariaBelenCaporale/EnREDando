@@ -6,6 +6,10 @@
     flex-direction: column;
 }
 
+.todoAgenda {
+    height: 540vh;
+}
+
 .agenda {
     padding-top: 20px;
     width: 100%;
@@ -72,8 +76,11 @@
 .textoQuienesAgenda {
     font-family: 'Roboto Condensed';
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
     text-align: left;
+    
 }
 
 .containerButtonAgenda {
@@ -97,7 +104,7 @@
     height: 36px;
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .linkeadoAgenda {
@@ -105,6 +112,10 @@
     font-family: 'Roboto Condensed' !important;
     font-weight: 700 !important;
     font-size: 16px !important;
+}
+
+.agen  {
+    color: #14AE5C !important;
 }
 
 .verde {
@@ -242,7 +253,8 @@
     align-items: flex-start;
     flex-direction: row-reverse;
     border-radius: 10px 10px 0px 0px;
-    background-color:  #F6DBEB;;
+    background-color:  #F6DBEB;
+    padding: 30px 40px 30px 40px ;
 }
 
 .containerCuadroReco {
@@ -262,8 +274,18 @@
     line-height: 28px;
     letter-spacing: 0em;
     text-align: left;
+    width: 90%;  
+}
+
+.recoTextosDos {
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
     width: 90%;
-    
+    padding: 0px 0px 0px 40px;
 }
 
 .cuadroReco {
@@ -280,7 +302,6 @@
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
-    padding: 20px 0px 0px 40px;
 }
 
 /**/
@@ -291,6 +312,7 @@
     align-items: flex-start;
     flex-direction: row;
     border-radius: 0px 0px 10px 10px;
+    padding: 30px 30px 30px 30px ;
 }
 
 .recoSection {

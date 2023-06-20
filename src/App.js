@@ -7,6 +7,7 @@ import QuienesSomos from './Pages/QuienesSomos/QuienesSomos';
 import QueOfrecemos from './Pages/QueOfrecemos/QueOfrecemos';
 import Footer from './components/Footer/Footer';
 import Agenda from './Pages/Agenda/Agenda';
+import Colaboracion from './Pages/Colaboracion/Colaboracion';
 function App() {
   return (
     <BrowserRouter>
@@ -18,15 +19,10 @@ function App() {
           <Route path="/QueHacemos" element={<QueHacemos />} />
           <Route path="/QueOfrecemos" element={<QueOfrecemos />} />
           <Route path="/Agenda" element={<Agenda />} />
-
-          
-          {/* <Route path="/Experiencias" element={<Experiencias />} />
-          <Route path="/nosotros" element={<Nosotros />} />
-          <Route path="/category/:categoryId" element={<ItemListContainer />} />
-          <Route path="/item/:id" element={<ItemDetailContainer />} />
-          <Route path='/Cart' element={<Cart />} /> */}
+          <Route path="/Colaboracion" element={<Colaboracion />} />
         </Routes>
-   <Footer />
+        
+        <Footer />
     </BrowserRouter>  
   );
 }

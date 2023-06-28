@@ -47,8 +47,9 @@
 }
 
 .row {
-    gap: .5rem;
+    gap: 0.5rem;
     justify-content: center !important;
+    align-items: center !important;
 }
 
 .contieneBlanco {

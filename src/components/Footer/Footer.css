@@ -1,15 +1,8 @@
 .containerFooter {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
     background-color: #A7FFCD;
-    height: 240px;
-    align-items: center;
-    justify-content: flex-start;
 }
 
 .containerLogoRedesFooter {
-    background-color: #A7FFCD;
     width: 20%;
     height: 240px;
     display: flex;
@@ -65,13 +58,18 @@
 }
 
 .containerTextFooter {
-    margin-left: 83px;
-    background-color: #A7FFCD;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 20%;
     height: 178px;
+}
+
+@media (max-width: 1200px) {
+    .containerTextFooter{
+        display: flex;
+        flex-direction: row;
+        height: 78px;
+    }
 }
 
 .containerWsp {
@@ -83,8 +81,8 @@
 .botonWsp {
     border: none;
     background-color: #2DDB78;
-    height: 86px;
-    width: 86px;
+    height: 70px;
+    width: 70px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -96,4 +94,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+.imagenW {
+    width: 70%;
 }

@@ -20,7 +20,7 @@ const QuienesSomos = () => {
             <div className='containerCuadro'>
                 <div className='cuadroUno'>
                     <img className='imgUno' src={enredandoNosotros} />
-                    <h1 className='tituloUno'>SOBRE ENREDANDO</h1>
+                    <h1 className='tituloUno'>SOBRE NOSOTROS/AS</h1>
                     <p className='textoUno'>EnREDando Salud constituye una red de trabajo colaborativo para la transformación socio-inclusiva con eje en la salud integral, los derechos humanos y la educación con adolescentes, jóvenes, mujeres y personas LGBTIQ+.
 </p>
                 </div>
@@ -34,7 +34,7 @@ const QuienesSomos = () => {
 
                 <div className='cuadroUno'>
                     <img className='imgUno' src={fundacion} />
-                    <h1 className='tituloUno'>NUESTROS SOCIOS</h1>
+                    <h1 className='tituloUno'>ORGANIZACIONES ALIADAS</h1>
                     <p className='textoUno'>En el  año 2019 gracias al impulso y apoyo institucional de la Fundación para el Estudio e Investigación de la Mujer, hemos llevado adelante el Ciclo de Formación de Educadorxs en Salud Sexual y Reproductiva.
                     </p>
                 </div>
@@ -60,7 +60,7 @@ const QuienesSomos = () => {
 
                         <img className='imgHistoria' src={nosotros} />
                         <div className='quienesTextos'>
-                        <p className='tituloQuienesHistoriaA'>SOBRE NOSOTROS</p>
+                        <p className='tituloQuienesHistoriaA'>SOBRE NOSOTROS/AS</p>
             
                         <p className='textoUnoHistoriaA'>
                             La misión del espacio es la igualdad entre mujeres y hombres, el pleno respeto de los derechos humanos, mejorar el acceso de adolescentes, jóvenes y mujeres a la educación, el trabajo, la salud, la plena participación social y política, incluyendo una mirada crítica sobre la masculinidad hegemónica y sus consecuencias en la salud. 
@@ -88,7 +88,7 @@ const QuienesSomos = () => {
                 <div className='historiaTextos'>
                 
                 <div className='textosHistoria'>
-                    <p className='tituloQuienesHistoriaA'>NUESTROS SOCIOS</p>
+                    <p className='tituloQuienesHistoriaA'>ORGANIZACIONES ALIADAS</p>
                     <p className='textoUnoHistoriaA'>
                     Desde Septiembre del año 2019 gracias al impulso y apoyo institucional de la Fundación para el Estudio e Investigación de la Mujer a partir de nuestra participación en la Alianza Argentina de Organizaciones de la Sociedad Civil en cumplimiento de los compromisos internacionales de la Plataforma de Acción El Cairo, hemos llevado adelante el Ciclo de Formación de Educadorxs en Salud Sexual y Reproductiva para la Prevención de Sífilis y otras ITS con adolescentes y jóvenes de entre 15 y 25 años de la provincia de Santa Fe con apoyo del proyecto “Cerrando Brechas” con financiamiento de la Unión Europea.
                     </p>

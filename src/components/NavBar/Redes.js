@@ -8,6 +8,7 @@ import íconolinkedin from '../Assets/íconolinkedin.png';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link, NavLink } from 'react-router-dom';
 import React from 'react';
 import './Redes.css';
 
@@ -19,23 +20,33 @@ import './Redes.css';
           <div className='containerRedes'>
             <div className='contactos'>
                     <div className='mail'>
-                        <img className='redM' src={mail} alt='facebook'/>
+                        <img className='redM' src={mail} alt='Mail'/>
                         <p>ENREDANDOSALUD@GMAIL.COM</p>
                         </div>
                         <div className='tel'>
-                        <img className='redW' src={Whatsapp} alt='facebook'/>
-                        <p>+54 1 234 567-1234</p>
+                        <img className='redW' src={Whatsapp} alt='Whatsapp'/>
+                        <p>+54 9 341 545-5341</p>
                         </div>
                         </div>  
                    
                 <Nav className="me-autos">
                     <Nav.Link href="#redes">
-   
-                    
-                        <img src={íconofb} alt='facebook'/>
-                        <img src={íconoinstagram} alt='instagram'/>
-                        <img src={iconoTwitter} alt='twitter'/>
-                        <img src={íconolinkedin} alt='linkedin'/>
+
+                    <Link  to={"https://www.facebook.com/enREDandoSalud/"}>
+                    <img className='redes' src={íconofb} alt='logo Enredandosalud'/>
+                    </Link>
+
+                    <Link to={"https://www.instagram.com/enredandosalud/?hl=es"}>
+                    <img className='redes' src={íconoinstagram} alt='logo Enredandosalud'/>
+                    </Link>
+
+                    <Link to={"https://twitter.com/EnredandoS"}>
+                    <img className='redes' src={iconoTwitter} alt='logo Enredandosalud'/>
+                    </Link>
+
+                    <Link to={"https://www.linkedin.com/in/enredando-salud-53767920b/?originalSubdomain=ar"}>
+                    <img className='redes' src={íconolinkedin} alt='logo Enredandosalud'/>
+                    </Link>
                     </Nav.Link>        
                 </Nav>
           </div>

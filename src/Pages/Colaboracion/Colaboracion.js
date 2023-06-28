@@ -8,7 +8,7 @@ const Colaboracion = () => {
     <div className='todoColaboracion'>
         <div className='containerColaboracion'>
             <div className='colaboracion'>
-                <p className='tituloColaboracion'>UNITE A NOSOTROS</p>
+                <p className='tituloColaboracion'>UNITE A NOSOTROS/AS</p>
             </div>
             
             <div className='containerCuadroColaboracion'>

@@ -6,6 +6,13 @@
     flex-direction: column;
 }
 
+.contain {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+
+
 .quienes {
     padding-top: 20px;
     width: 100%;
@@ -21,7 +28,6 @@
 
 .containerCuadroHacemos {
     background-color: #F3F3F3;
-    width: 1245px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -40,18 +46,24 @@
     justify-content: space-around;
 }
 
+.row {
+    gap: .5rem;
+    justify-content: center !important;
+}
+
 .contieneBlanco {
     background: #FFFFFF;
     box-shadow: 10px 10px 30px rgba(210, 218, 242, 0.87);
     border-radius: 10px;
-    width: 333px;
-    height: 227px;
     border-radius: 10px;
-    padding: 0px 30px 30px 30px;
+    height: 231px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-direction: column;
 }
 
@@ -59,16 +71,17 @@
     background-color: #E9FAF0;
     width: 333px;
     height: 84px;
-    display: flex;
+    display: flex !important;
     align-items: center;
     justify-content: center;
+
 }
 
 .fonditoDos {
     background-color: #F3F3F3;
     width: 333px;
     height: 84px;
-    display: flex;
+    display: flex !important;
     align-items: center;
     justify-content: center;
 }
@@ -81,7 +94,8 @@
     line-height: 19px;
     letter-spacing: 0em;
     text-align: center;
-    height: 74px;
+    margin-top: 20px;
+    width: 80%;
 }
 
 .tituloQuienesUno {
@@ -97,6 +111,7 @@
     font-size: 32px;
     font-weight: 700;
     text-align: center;
+    padding: 30px 0px 30px 0px;
 }
 
 .tematicas {

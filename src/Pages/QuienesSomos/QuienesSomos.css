@@ -1,15 +1,3 @@
-.containerQuienes {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
-.quienes {
-    padding-top: 20px;
-    width: 100%;
-}
 
 .tituloQuienes {
     font-family: 'Roboto Condensed';
@@ -19,51 +7,121 @@
     text-align: center;
 }
 
-.containerCuadro {
+.parteUno {
     background-color: #F3F3F3;
-    width: 1245px;
-    display: flex;
-    margin-bottom: 5rem;
-    padding-bottom: 30px;
+    align-items: flex-start !important;
+    justify-content: space-around !important;
+    padding: 40px 0px 40px 0px;
 }
 
-.cuadroUno {
-    height: 640px;
-    width: 415px;
-
-
-    align-items: center;
-    justify-content: flex-start;
+.contenedorCuadros {
+    align-items: center !important;
     display: flex;
     flex-direction: column;
-
 }
 
-.imgUno {
-    padding:  40px 39px 22px 39px;
+
+@media (min-width: 992px) and (max-width: 1199px)  {
+    .contenedorCuadros{
+        flex-direction: row;
+    }
+
+    .parteUno {
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .textosCuadros {
+        margin-left: 2rem !important;
+    }
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .textosCuadros {
+        padding: 0px 30px 30px 30px !important;
+    }
+}
+
+
 
 .tituloUno {
     font-family: 'Roboto Condensed';
     font-size: 24px;
     font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .textoUno {
     font-family: 'Roboto Condensed';
     font-size: 24px;
     font-weight: 300;
-    padding:  10px 39px 22px 39px;
+}
+/* PARTE QUIENES */
+.parteDos {
+    background-color: #F3F3F3;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    padding: 40px;
 }
 
-/* PARTE QUIENES */
-.containerCuadroQuienes {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    height: 100vh;
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .segunda {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+    .parteDos {
+        align-items: center !important;
+    }
+
+    .imagenHis {
+        display: flex !important;
+        justify-content: center !important;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .segunda {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        padding: 20px 40px 0px 40px !important;
+    }
+
+    .tituloQuienesHistoriaA {
+        padding-left: 0px !important;
+    }
+    .textoUnoHistoriaA {
+        padding-left: 0px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .parteDos {
+        align-items: center !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+
+    .imagenHis {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-bottom: 1rem !important;
+    } 
+
+    .segunda {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        padding: 20px 40px 0px 40px !important;
+    }
+}
+
+.margen {
+    margin-top: 15rem !important;
 }
 
 .cuadroQuienes {
@@ -87,12 +145,12 @@
     flex-direction: row;
 }
 
-.imgHistoria {
-    padding: 40px 39px 22px 39px;
-}
-
 .textoUnoHistoria {
-    padding: 0px 39px 22px 0px;
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    
 }
 .tituloQuienesHistoria {
     font-family: 'Roboto Condensed';
@@ -101,7 +159,6 @@
     line-height: 38px;
     letter-spacing: 0em;
     text-align: left;
-    padding: 40px 39px 22px 0px;
 }
 
 .containerQuienesUnoA {
@@ -110,7 +167,7 @@
 }
 
 .textoUnoHistoriaA {
-    padding: 0px 39px 22px 39px;
+    padding-left: 20px;
 }
 
 .tituloQuienesHistoriaA {
@@ -119,8 +176,18 @@
     font-weight: 700;
     line-height: 38px;
     letter-spacing: 0em;
-    text-align: left;
-    padding: 40px 39px 22px 39px;
+    text-align: flex-start !important;
+    padding-left: 20px;
+}
+
+.tituloQuienesHistoriaB {
+    font-family: 'Roboto Condensed';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center !important;
+    padding-left: 20px;
 }
 
 /* NUESTRO EQUIPO */
@@ -131,41 +198,30 @@
     font-weight: 700;
     line-height: 38px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
     padding: 40px 39px 22px 0px;
 }
 
-.containerCarruselEquipo {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.equipo {
+    display: flex !important;
     flex-direction: column;
+    margin-top: 15rem !important;
 }
+
 
 /**/
-
-.containerQuienesUnoB {
+.org {
     display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    margin-top: 5rem;
+    flex-direction: column !important;
+    margin-top: 15rem !important;
 }
+
 
 .containerHistoria {
     display: flex;
     flex-direction: row;
 }
 
-.cuadroHistoria {
-    align-items: center;
-    width: 1245px;
-    display: flex;
-    margin-bottom: 5rem;
-    flex-direction: column;
-}
 
 .historiaTextos {
     display: flex;
@@ -185,4 +241,12 @@
     font-size: 24px;
     font-weight: 300;
     line-height: 28px;
+}
+
+.imgHistoriaDos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem !important;
+    margin-bottom: 4rem!important;
 }

@@ -1,3 +1,115 @@
+@media (min-width: 575px) and (max-width: 767px){
+    .contenedorCuadrosOfre {
+        margin-bottom: 3rem !important;
+    }
+    .imagenOfreTaller {
+        justify-content: center !important;
+        align-items: center !important;
+        display: flex !important;
+    } 
+    .Ofre {
+        margin-bottom: 2rem !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .contenedorCuadrosOfre {
+        margin-bottom: 3rem !important;
+    }
+    .imagenOfreTaller {
+        justify-content: center !important;
+    } 
+}
+
+@media (min-width: 993px) and (max-width: 1199px) {
+    .contenedorCuadrosOfre {
+        margin-bottom: 3rem !important;
+    }
+}
+
+.parteCuadroOfre {
+    background-color: #F3F3F3;
+    align-items: flex-start !important;
+    justify-content: space-around !important;
+    padding: 40px 0px 40px 0px;
+}
+
+.textoOfrecemos {
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    width: 232px;
+    height: 180px;
+}
+
+.imgOfrecemos {
+    width: 180px !important;
+}
+
+.cuadrosOfre {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px 0px 0px;
+}
+
+.contenedorCuadrosOfre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botonMasOf {
+    align-items: center !important;
+    display: flex !important;
+}
+
+.botonOfrecemos {
+    background-color: #D34B9A;
+    width: 167px;
+    height: 51px;
+    border: none;
+    border-radius: 10px;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botonOfrecemos:hover {
+    background-color: #F6DBEB;
+}
+
+.Ofre {
+    margin-top: 6rem !important;
+    margin-bottom: 6rem !important;
+}
+
+.parteOfre {
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 40px;
+}
+
+.imagenOfreTaller {
+    display: flex !important;
+    justify-content: flex-end !important;
+}
+
+.bannerTres {
+    margin-bottom: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .containerCuadroOfrecemos {
     background-color: #F3F3F3;
     width: 1245px;
@@ -9,13 +121,7 @@
     margin-bottom: 50px;
 }
 
-.containerOfrecemos{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-}
+
 
 .containerB {
     display: flex;
@@ -53,34 +159,7 @@
     height: 210px;
 }
 
-.imgOfrecemos {
-    padding: 20px 20px 20px 20px;
-}
 
-.textoOfrecemos {
-    font-family: 'Roboto Condensed';
-    font-size: 16px;
-    font-weight: 300;
-    text-align: center;
-    width: 232px;
-}
-
-.containerButton {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    height: 10vh;
-}
-
-.botonOfrecemos {
-    background-color: #D34B9A;
-    width: 167px;
-    height: 51px;
-    border: none;
-    border-radius: 10px;
-
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
 
 .linkeado {
     color: white !important;
@@ -88,28 +167,6 @@
     font-weight: 700 !important;
     font-size: 24px !important;
     line-height: 28.13px !important;
-}
-
-/* SECCION DOS */
-
-.sectionTalleres {
-    width: 1122px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-.talleres {
-    gap: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-}
-
-.bannerOfrecemos {
-    margin: 40px;
 }
 
 .textosTalleres {

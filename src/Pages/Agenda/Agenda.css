@@ -1,76 +1,23 @@
-.containerAgenda {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
+.parteCuadroAgen {
+    align-items: flex-start !important;
+    justify-content: space-around !important;
+    padding: 40px 0px 40px 0px;
+    margin-bottom: 3rem;
 }
 
-.todoAgenda {
-    height: 540vh;
-}
-
-.agenda {
-    padding-top: 20px;
-    width: 100%;
-}
-
-.tituloAgenda {
-    font-family: 'Roboto Condensed';
-    font-size: 38px;
-    padding: 20px 0px 20px 0px;
-    font-weight: 700;
-    text-align: center;
-}
-
-.containerCuadroAgenda {
-    width: 1245px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    padding-bottom: 30px;
-    margin-bottom: 50px;
-}
-
-.containerAgen {
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-    gap: 1rem;
-    align-items: center;
-    width: 1245px;
-    justify-content: space-around;
-}
-
-.contieneAgenda {
-    background: #D34B9A;
-    /* box-shadow: 10px 10px 30px rgba(210, 218, 242, 0.87); */
+.contenedorCuadrosAg {
+    background-color: #D34B9A;
     border-radius: 10px;
-    width: 400px;
-    height: 300px;
-    border-radius: 10px;
-    padding: 40px 30px 30px 30px;
-
-    display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
-    flex-direction: column;
 }
 
 .dos {
     background-color: #A8FFCE;
 }
 
-.dosA {
-    color: white;
-}
-
-.tituloAgendaUno {
-    font-family: 'Roboto Condensed';
-    font-size: 24px;
-    font-weight: 700;
-    text-align: left;
+.textQ {
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .textoQuienesAgenda {
@@ -80,15 +27,228 @@
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
-    
+
+
 }
+
+.contenedorCuadrosAg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 320px !important;
+}
+
+.cuadrosAgenda {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center !important;
+    padding: 30px 0px 0px 0px;
+    justify-content: center !important;
+}
+
+.textosAcomo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contEsc {
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.escara {
+    width: 20px;
+}
+.rec {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+}
+
+.contieneRosa {
+    background:#D34B9A;
+    /* width: 370px !important; */
+    border-radius: 10px;
+    border-radius: 10px;
+    height: 300px;
+
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.contieneVerde {
+    background-color: #A8FFCE;
+    border-radius: 10px;
+    border-radius: 10px;
+    height: 300px;
+    /* width: 370px !important; */
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+
+
+
+.tituloAgendaUno {
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+
+    padding: 30px 10px 10px 10px;
+}
+
+.containerTalleres {
+    width: 1245px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.rowTalleres {
+    gap: 1rem;
+    align-items: center !important;
+    justify-content: space-around !important;
+}
+
+.tituloAgendaUn {
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+   .textoQuienesAgenda {
+    height: 0px;
+   }
+}
+
+
+/* TALLERES REALIZADOS */
+
+.sectionTalleresRalizados  {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 50px;
+    background-color: #E9FAF0;
+    height: auto;
+    padding: 40px 40px 40px 40px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.textTotal {
+    align-items: center;
+    justify-content: flex-start !important;
+}
+
+.datas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5rem;
+}
+
+.subti {
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+/* RECONOCIMIENTOS */
+
+
+.containerReconocimientos {
+    border-radius: 10px 10px 0px 0px;
+    background-color:  #F6DBEB;
+    padding: 30px 40px 30px 40px ;
+}
+
+.ultimo {
+    margin-bottom: 4rem;
+    border-radius: 0px 0px 10px 10px !important;
+}
+
+.recoSection {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 1245px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.containerReconocimientosA {
+    border-radius: 0px 0px 0px 0px;
+    background-color:  #F6DBEB;
+    padding: 30px 40px 30px 40px ;
+}
+
+.containerReconocimientosDos {
+    border-radius: 0px 0px 0px 0px;
+    background-color:  #E9FAF0;
+    padding: 30px 40px 30px 40px ;
+}
+
+
+.tituloReco {
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    width: 80%;
+}
+
+.textoUnoReco {
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 90%;  
+}
+
+.dosA {
+    color: white;
+}
+
 
 .containerButtonAgenda {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     height: 10vh;
 }
+
 
 .rec {
     width: 100%;
@@ -131,17 +291,48 @@
     width: 224px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* seccion proximos */
 
-.containerProx {
-    width: 1245px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items:flex-start;
-    justify-content: flex-start;
-    padding-bottom: 30px;
-    margin-bottom: 50px;
-}
 .proximosTalleres {
     gap: 3rem;
     display: flex;
@@ -171,18 +362,7 @@
     text-align: left;
 }
 
-.sectionTalleresRealizados {
-    width: 1245px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-    background-color: #E9FAF0;
-    height: auto;
-    padding: 40px 40px 40px 40px;
-    border-radius: 10px;
-    margin-bottom: 50px;
-}
+
 
 .dataTaller {
     font-family: 'Roboto Condensed';
@@ -211,14 +391,7 @@
     width: 1245px;
 }
 
-.subti {
-    font-family: 'Roboto Condensed';
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 28px;
-    letter-spacing: 0em;
-    text-align: left;
-}
+
 
 
 .fotosRealizados {
@@ -229,53 +402,11 @@
     gap: 2rem;
 }
 
-.datas{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 70%;
-}
+
 
 /*reconocimientos*/
 
-.tituloReco {
-    font-family: 'Roboto Condensed';
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 28px;
-    letter-spacing: 0em;
-    width: 80%;
-}
 
-.containerReconocimientos {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row-reverse;
-    border-radius: 10px 10px 0px 0px;
-    background-color:  #F6DBEB;
-    padding: 30px 40px 30px 40px ;
-}
-
-.containerCuadroReco {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    height: 100vh;
-    margin-top: 50px;
-}
-
-.textoUnoReco {
-    font-family: 'Roboto Condensed';
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 28px;
-    letter-spacing: 0em;
-    text-align: left;
-    width: 90%;  
-}
 
 .recoTextosDos {
     font-family: 'Roboto Condensed';
@@ -288,14 +419,6 @@
     padding: 0px 0px 0px 40px;
 }
 
-.cuadroReco {
-    width: 1245px;
-    display: flex;
-    margin-bottom: 5rem;
-    padding-bottom: 30px;
-    flex-direction: column;
-    border-radius: 10px;
-}
 
 .recoTextos {
     display: flex;
@@ -315,10 +438,3 @@
     padding: 30px 30px 30px 30px ;
 }
 
-.recoSection {
-    width: 1245px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 3rem;
-}

@@ -1,3 +1,33 @@
+.aporte {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    margin-bottom: 3rem;
+    gap: 1rem;
+}
+
+.contDonar {
+    background-color: #F6DBEB;
+    border-radius: 10px;
+    padding: 50px 0px 50px 0px;
+    align-items: center !important;
+    justify-content: space-around !important;
+    display: flex !important;
+    margin-bottom: 4rem;
+}
+
+.donacion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagenesDonar {
+    display: flex;
+    justify-content: center;
+}
+
+
 .todoColaboracion {
     height: 129vh;
 }
@@ -136,6 +166,7 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 47px;
+    margin: 0px;
 }
 
 /**/

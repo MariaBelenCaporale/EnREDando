@@ -2,7 +2,7 @@ import './Footer.css';
 import { Col, Container, Row } from 'react-bootstrap';
 import logo from '../Assets/logo.png'
 import mail from '../Assets/mail.png';
-import Wsp from '../Assets/Wsp.png';
+
 import íconofb from '../Assets/íconofb.png';
 import íconoinstagram from '../Assets/íconoinstagram.png';
 import iconoTwitter from '../Assets/iconoTwitter.png';
@@ -17,7 +17,7 @@ const Footer = () => {
         <Container className='containerFooter'>
 
             <Row xxl={12} xl={12} lg={12} md={12}>
-                <Col xxl={2} xl={2} lg={12} className='containerLogoRedesFooter'>
+                <Col xxl={2} xl={2} lg={2} className='containerLogoRedesFooter'>
                     <NavLink to={"/"}>
                         <div className='containerLogoFooter'>
                         <img className='logoFooter' src={logo} alt='logo Enredandosalud'/>
@@ -45,7 +45,7 @@ const Footer = () => {
          
 
             
-                <Col xxl={2} xl={2} lg={12}  >
+                <Col xxl={2} xl={2} lg={2}   >
                 <div className='containerTextFooter'> 
                     <Link to='QuienesSomos'>
                     <h4 className='footerText'>¿Quiénes somos?</h4>
@@ -71,7 +71,7 @@ const Footer = () => {
                 </Col>
 
 
-                <Col xxl={6} xl={6} lg={12} >
+                <Col xxl={6} xl={6} lg={6} >
                 <div className='contieneContact'>
                     <div className='containerDatosFooter'>
                         <div>
@@ -86,19 +86,11 @@ const Footer = () => {
 
                         <div>
                             <h3 className='datosFooter'>TELÉFONO</h3>
-                            <p className='subFooter'>+54 9 341 545-5341</p>
+                            <p className='subFooter'>0800 222 3444</p>
                         </div>
                     </div>
                 </div>
-                <Row>
-                    <Col>
-                        <div className='containerWsp'>
-                            <button className='botonWsp'>
-                                <img className='imagenW' src={Wsp} alt='icono de whatsapp' />
-                            </button>
-                        </div>
-                    </Col>
-                </Row>
+                
                 </Col>
             </Row>
 

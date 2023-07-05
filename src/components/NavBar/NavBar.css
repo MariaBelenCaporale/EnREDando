@@ -84,16 +84,9 @@ a:hover {
 /* RESPONSIVE */
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-
-    .container-logo {
-        width: 20%;
-    }
-
-
-
-    .logo {
-        width: 80%;
-        margin-left: 30px;
+    .navbar-nav {
+        display: flex !important;
+        flex-direction: column !important;
     }
 }
 
@@ -113,6 +106,10 @@ a:hover {
     .container-logo {
         width: 100%;
         justify-content: flex-start;
+    }
+    .navbar-nav {
+        display: flex !important;
+        flex-direction: column !important;
     }
 
 

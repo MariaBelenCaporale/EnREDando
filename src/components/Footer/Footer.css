@@ -40,12 +40,50 @@
     font-family: 'Roboto Condensed';
     font-weight: 700;
 }
-
 .subFooter {
     font-size: 20px;
     font-family: 'Roboto Condensed';
     font-weight: 300;
 }
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .datosFooter {
+        font-size: 15px;
+        font-family: 'Roboto Condensed';
+        font-weight: 700;
+    }
+    .subFooter {
+        font-size: 15px;
+        font-family: 'Roboto Condensed';
+        font-weight: 600;
+    }
+    .containerTextFooter {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-around;
+        height: 50px !important;
+    }
+    
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .containerTextFooter {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-around;
+        height: 50px !important;
+    }
+    .datosFooter {
+        font-size: 15px;
+        font-family: 'Roboto Condensed';
+        font-weight: 700;
+    }
+    .subFooter {
+        font-size: 15px;
+        font-family: 'Roboto Condensed';
+        font-weight: 600;
+    }
+}
+
 
 .footerText {
     font-family: 'Roboto Condensed';
@@ -64,11 +102,22 @@
     height: 178px;
 }
 
-@media (max-width: 1200px) {
+@media screen and (min-width: 993px) and (max-width: 1200px)  {
     .containerTextFooter{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         height: 78px;
+    }
+
+    .datosFooter {
+        font-size: 18px;
+        font-family: 'Roboto Condensed';
+        font-weight: 700;
+    }
+    .subFooter {
+        font-size: 15px;
+        font-family: 'Roboto Condensed';
+        font-weight: 500;
     }
 }
 

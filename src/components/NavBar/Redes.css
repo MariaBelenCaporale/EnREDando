@@ -4,12 +4,10 @@
     align-items: center;
     justify-content: flex-end;
     height: 46px;
-    width: 100%;
 }
 .me-autos {
     display: flex;
     flex-direction: row;
-    width: 100%;
     justify-content: flex-end;
 }
 .contactos {
@@ -17,22 +15,27 @@
     align-items: center;
     flex-direction: row;
     justify-content: flex-start;
-    width: 100%;
-    gap: 3rem;
 }
 
-.tel {
+.mailW {
     display: flex;
     flex-direction: row;
-    font-family: 'Roboto Condensed';
+    align-items: center;
+    justify-content: center;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
     gap: .5rem;
 }
+
 
 .mail {
     display: flex;
     flex-direction: row;
     font-family: 'Roboto Condensed';
-    gap: .5rem;
+    margin-bottom: 0px;
 }
 
 .redW {
@@ -43,4 +46,21 @@
 .redM {
     height: 24px;
     width: 24px;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .mail {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+    .mailW {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+        justify-content: center;
+        gap: .5rem;
+    }
+
+
 }

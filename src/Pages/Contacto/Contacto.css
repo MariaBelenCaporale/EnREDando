@@ -1,45 +1,8 @@
-
-.todoContacto {
-    height: 100vh;
+.fotoCont {
+    display: flex !important;
+    justify-content: flex-end !important;
 }
 
-.containerContacto {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
-.contacto {
-    padding-top: 20px;
-    width: 100%;
-}
-
-.tituloContacto {
-    font-family: 'Roboto Condensed';
-    font-size: 38px;
-    padding: 20px 0px 20px 0px;
-    font-weight: 700;
-    text-align: center;
-}
-
-.containerCont {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-}
-
-.TextosContacto {
-    font-family: 'Roboto Condensed';
-    font-size: 18px;
-    width: 60%;
-}
-
-.todoContactoText {
-    width: 1245px;
-    display: flex;
-    flex-direction: row;
-    gap: 3rem;
+.contenedorCon {
+    margin-bottom: 2rem;
 }

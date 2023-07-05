@@ -8,7 +8,6 @@ import recoDos from '../../components/Assets/recoDos.png';
 import recoRosa from '../../components/Assets/recoRosa.png';
 import apertura from '../../components/Assets/apertura.png';
 import salud from '../../components/Assets/salud.png';
-import Footer from '../../components/Footer/Footer';
 
 
 import { Col, Container, Image, Row } from 'react-bootstrap';

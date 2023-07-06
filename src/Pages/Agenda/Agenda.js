@@ -85,7 +85,7 @@ const Agenda = () => {
 
 
 
-            <Col lg={12} md={12} className='containerTalleres'>
+            <Col lg={12} md={12} className='containerTalleres' id="proximos">
                 <h1 className='proximosTalleres'>PRÓXIMOS TALLERES</h1>
             </Col>
 
@@ -163,7 +163,7 @@ const Agenda = () => {
 
 
 
-            <Col lg={12} md={12} className='containerTalleres'>
+            <Col lg={12} md={12} className='containerTalleres' id='talleresRealizados'>
                 <h1 className='proximosTalleres'>TALLERES REALIZADOS</h1>
             </Col>
 

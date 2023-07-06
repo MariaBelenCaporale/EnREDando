@@ -2,6 +2,7 @@ import './Colaboracion.css';
 import aporte from '../../components/Assets/aporte.png';
 import manos from '../../components/Assets/manos.png';
 import gente from '../../components/Assets/gente.png';
+import { Link, NavLink } from 'react-router-dom';
 
 import { Col, Container, Image, Row } from 'react-bootstrap';
 const Colaboracion = () => {
@@ -26,9 +27,9 @@ const Colaboracion = () => {
                             </p>
                             </Col>
                             <Col  className='containerButtonAgenda'>
-                                <button className='botonAgenda'>
-                                    <a className='linkeadoAgenda' href="#proximos">VER MÁS </a>
-                                </button>
+                                <Link className='botonColabMas ros' to={"https://docs.google.com/forms/d/e/1FAIpQLSeM23Oww-Rj26ogxHsGd6df7P3TvbV5K-LNNFmBTG5Vubc_qg/viewform"}>
+                                <p className='linkeadoColabMas'>VER MÁS</p>
+                                </Link>
                             </Col>
                         </Col>
                 </Col>
@@ -43,9 +44,10 @@ const Colaboracion = () => {
                             </p>
                             </Col>
                             <Col className='containerButtonAgenda'>
-                                <button className='botonAgenda verde'>
-                                    <a className='linkeadoAgenda agen' href="#talleresRealizados">VER MÁS  </a>    
-                                </button>
+
+                                <Link className='botonColabMas verde' to={"https://docs.google.com/forms/d/e/1FAIpQLSeM23Oww-Rj26ogxHsGd6df7P3TvbV5K-LNNFmBTG5Vubc_qg/viewform"}>
+                                <p className='linkeadoColabMas verD'>VER MÁS</p>
+                                </Link>
                             </Col>
                         </Col>
                 </Col>
@@ -60,9 +62,9 @@ const Colaboracion = () => {
                             </p>
                             </Col>
                             <Col  className='containerButtonAgenda'>
-                                <button className='botonAgenda'>
-                                    <a className='linkeadoAgenda' href="#proximos">VER MÁS </a>
-                                </button>
+                            <Link className='botonColabMas ros' to={"https://docs.google.com/forms/d/e/1FAIpQLSeM23Oww-Rj26ogxHsGd6df7P3TvbV5K-LNNFmBTG5Vubc_qg/viewform"}>
+                                <p className='linkeadoColabMas'>VER MÁS</p>
+                                </Link>
                             </Col>
                         </Col>
                 </Col>       
@@ -93,9 +95,9 @@ const Colaboracion = () => {
                     <p className='textoDonar'>Podes ayudarnos de distintas maneras.</p>
                     <p className='textoDonar'>¡Vos elegís!</p>
 
-                    <button className='botonAporte'>
-                        <a className='linkeadoApor' href="#">VER MÁS  </a>
-                    </button>
+                    <Link className='botonColabMas ros' to={"https://docs.google.com/forms/d/e/1FAIpQLSeM23Oww-Rj26ogxHsGd6df7P3TvbV5K-LNNFmBTG5Vubc_qg/viewform"}>
+                                <p className='linkeadoColabMas'>VER MÁS</p>
+                                </Link>
                     </Col>
                     <Col className='imagenesDonar'>
                         <Image fluid className='imagenDonar' src={gente} alt='imagen de manos' />

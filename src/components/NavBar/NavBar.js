@@ -13,7 +13,15 @@ import Redes from './Redes';
 
 
     
-    function CollapsibleExample() {
+    const CollapsibleExample = () => {
+
+      const [clicked, setClicked] = useState(false)
+
+      const handleClick = () => {
+  
+          setClicked(!clicked)
+      }
+
       return (
         <Navbar collapseOnSelect expand="lg">
           <Container>
@@ -25,12 +33,24 @@ import Redes from './Redes';
                 <NavLink to='/' href="#home">
                 <img src={logo} alt='logo enredandosalud'/>
             </NavLink>
-                    <NavLink className='link' to='QuienesSomos' href="#QuienesSomos">¿QUIÉNES SOMOS?</NavLink>
-                    <NavLink className='link' to='QueHacemos' href="#QueHacemos">¿QUÉ HACEMOS?</NavLink>
-                    <NavLink className='link' to='QueOfrecemos' href="#QueOfrecemos">¿QUÉ OFRECEMOS?</NavLink>
-                    <NavLink className='link' to='Agenda' href="#Agenda">AGENDA</NavLink>
-                    <NavLink className='link' to='Colaboracion' href="#Colaboracion">COLABORACIÓN</NavLink>
-                    <NavLink className='link' to='Contacto' href="#Contacto">CONTACTO</NavLink>
+
+            <Col className={`lista ${clicked ? 'active' : ''}`}>
+                    <NavLink onClick={handleClick}
+                            className={({ isActive }) => (isActive ? 'active' : 'inactive')}  to='QuienesSomos' href="#QuienesSomos">¿QUIÉNES SOMOS?</NavLink>
+
+                    <NavLink onClick={handleClick}
+                            className={({ isActive }) => (isActive ? 'active' : 'inactive')} to='QueHacemos' href="#QueHacemos">¿QUÉ HACEMOS?</NavLink>
+                    <NavLink onClick={handleClick}
+                            className={({ isActive }) => (isActive ? 'active' : 'inactive')}  to='QueOfrecemos' href="#QueOfrecemos">¿QUÉ OFRECEMOS?</NavLink>
+                    <NavLink onClick={handleClick}
+                            className={({ isActive }) => (isActive ? 'active' : 'inactive')}  to='Agenda' href="#Agenda">AGENDA</NavLink>
+                    <NavLink onClick={handleClick}
+                            className={({ isActive }) => (isActive ? 'active' : 'inactive')}  to='Colaboracion' href="#Colaboracion">COLABORACIÓN</NavLink>
+                    <NavLink onClick={handleClick}
+                            className={({ isActive }) => (isActive ? 'active' : 'inactive')}  to='Contacto' href="#Contacto">CONTACTO</NavLink>
+            </Col>
+
+                   
                 </Nav>
                
                 </Navbar.Collapse>

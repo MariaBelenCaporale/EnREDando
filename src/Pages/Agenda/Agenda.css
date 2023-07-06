@@ -10,6 +10,10 @@
     border-radius: 10px;
 }
 
+.botonAgenda:hover {
+    background-color: #D34B9A;
+}
+
 .dos {
     background-color: #A8FFCE;
 }
@@ -278,10 +282,7 @@
     color: #14AE5C !important;
 }
 
-.verde {
-    background-color: #72E8A5;
-    color: #14AE5C;
-}
+
 
 .textoAg {
     display: flex;

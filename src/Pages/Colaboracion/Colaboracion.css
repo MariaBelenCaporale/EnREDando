@@ -6,6 +6,25 @@
     gap: 1rem;
 }
 
+.linkeadoColabMas {
+    color: white !important;
+    font-family: 'Roboto Condensed' !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    margin-bottom: 0px !important;
+}
+
+.botonColabMas {
+    background-color: #E185BA;
+    width: 133px;
+    height: 36px;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: center;
+}
 .contDonar {
     background-color: #F6DBEB;
     border-radius: 10px;
@@ -142,10 +161,6 @@
     background-color: #A8FFCE;
 }
 
-.verdeColab {
-    background-color: #72E8A5;
-    color: #14AE5C;
-}
 
 .colabo {
     color: #14AE5C !important;
@@ -161,6 +176,21 @@
     gap: 3rem;
 }
 
+.verde {
+    background-color: #72E8A5;
+}
+
+.verde:hover {
+    background-color: #A8FFCE;
+}
+
+.ros:hover {
+    background-color: #D34B9A;
+}
+
+.verD {
+    color: #14AE5C !important;
+}
 .tituloAporta {
     font-family: 'Roboto Condensed';
     font-size: 40px;
@@ -210,25 +240,9 @@
     top: 617px;
 }
 
-.botonAporte {
-    background-color: #D34B9A;
-    width: 195px;
-    height: 39px;
-    border-radius: 10px;
-    border: none;
 
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
 
-.linkeadoApor {
-    font-family: 'Roboto Condensed';
-    font-size: 24px !important;
-    font-weight: 700 !important;
-    line-height: 28px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: white !important;
-}
+
 
 .contieneDonar {
     display: flex;

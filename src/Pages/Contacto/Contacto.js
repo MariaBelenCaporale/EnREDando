@@ -1,6 +1,6 @@
 import contacto from '../../components/Assets/contacto.png';
 import './Contacto.css';
-
+import { Link, NavLink } from 'react-router-dom';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 
 const Contacto = () => {
@@ -14,11 +14,12 @@ const Contacto = () => {
             </Row>
 
             <Row className='contenedorCon'>
-                <Col>
-                    <h2> No dudes en escribirnos</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse scelerisque enim erat, a lacinia mi accumsan nec. Etiam sodales nulla eu gravida porta. Vivamus eleifend porttitor arcu et vehicula. Integer id eros luctus, laoreet nisi ut, egestas ipsum. </p>
+                <Col className='uniteLink'>
+                    <h2> Unite a nosotros/as</h2>
+                    <Link className='botonColabMas ros' to={"https://docs.google.com/forms/d/e/1FAIpQLSeM23Oww-Rj26ogxHsGd6df7P3TvbV5K-LNNFmBTG5Vubc_qg/viewform"}>
+                        <p className='linkeadoColabMas'>UNIRME</p>
+                     </Link>
 
-                    <p>Enredandosalud@gmail.com</p>
                 </Col>
                 
             

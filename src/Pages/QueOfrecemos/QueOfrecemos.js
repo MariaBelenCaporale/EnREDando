@@ -32,8 +32,8 @@ const QueOfrecemos = () => {
                         <p className='textoOfrecemos'>Ofrecemos talleres de diferentes temas dirigidos a adolescentes y jóvenes, brindando información y herramientas valiosas para mejorar la calidad de vida de las personas. Es una oportunidad para seguir aprendiendo.
                         </p>
                         <Col className='botonMasOf'>
-                        <button className='botonOfrecemos'>
-                        <a className='linkeado' href="#talleres">VER MÁS  </a>
+                        <button className='botonOfrecemosTa'>
+                        <a className='linkeadoTa' href="#talleres">VER MÁS  </a>
                         </button>
                         </Col>
                     </Col>
@@ -49,8 +49,8 @@ const QueOfrecemos = () => {
                         <p className='textoOfrecemos'>¡Desarrolla tus habilidades y alcanza tu máximo potencial con nuestra capacitación!  ¿Estás listo/a para impulsar tu carrera y adquirir conocimientos valiosos? ¡No busques más! 
                         </p>
                         <Col className='botonMasOf'>
-                        <button className='botonOfrecemos'>
-                        <a className='linkeado' href="#talleres">VER MÁS  </a>
+                        <button className='botonOfrecemosTa'>
+                        <a className='linkeadoTa' href="#talleres">VER MÁS  </a>
                         </button>
                         </Col>
                     </Col>
@@ -65,8 +65,8 @@ const QueOfrecemos = () => {
                         <p className='textoOfrecemos'>Te brindamos mayor información y compartidos por este medio material que puede ayudarte a profundizar temas aprendidos en talleres y capacitaciones. Además, de información importante para reforzar tus conocimientos.
                         </p>
                         <Col className='botonMasOf'>
-                        <button className='botonOfrecemos'>
-                        <a className='linkeado' href="#talleres">VER MÁS  </a>
+                        <button className='botonOfrecemosTa'>
+                        <a className='linkeadoTa' href="#talleres">VER MÁS  </a>
                         </button>
                         </Col>
                     </Col>

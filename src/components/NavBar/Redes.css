@@ -64,3 +64,18 @@
 
 
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .mail {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+    .mailW {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+        justify-content: center;
+        gap: .5rem;
+    }
+}

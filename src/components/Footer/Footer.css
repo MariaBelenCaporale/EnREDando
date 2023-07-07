@@ -65,6 +65,29 @@
     
 }
 
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    .containerTextFooter {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-around;
+        height: 50px !important;
+    }
+    .datosFooter {
+        font-size: 12px;
+        font-family: 'Roboto Condensed';
+        font-weight: 700;
+    }
+    .subFooter {
+        font-size: 10px;
+        font-family: 'Roboto Condensed';
+        font-weight: 600;
+    }
+
+    .footerText {
+        font-size: 10px !important;
+    }
+}
+
 @media screen and (min-width: 576px) and (max-width: 768px) {
     .containerTextFooter {
         display: flex !important;

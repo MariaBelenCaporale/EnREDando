@@ -155,8 +155,19 @@
         justify-content: center !important;
         gap: 1rem !important;
     }
+
+    .parteCuadroAgen {
+        padding: 10px!important;
+    }
+
+    .rowTalleres {
+        padding: 10px !important ;
 }
 
+    .textQ {
+        padding: 10px !important;
+    }
+}
 
 /* TALLERES REALIZADOS */
 

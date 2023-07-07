@@ -147,6 +147,16 @@
    }
 }
 
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    .recoSection {
+        flex-direction: column-reverse !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 1rem !important;
+    }
+}
+
 
 /* TALLERES REALIZADOS */
 

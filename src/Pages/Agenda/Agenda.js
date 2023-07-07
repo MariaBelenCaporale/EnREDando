@@ -195,7 +195,7 @@ const Agenda = () => {
                     </Col>
                     <Col  className='fotosRealizados'>
                     <Image fluid className='imgRealizaos' src={realizadosUno}  alt='chicos en clase'/>
-                    <Image fluidclassName='imgRealizaos' src={chicosDos}  alt='chicos en clase'/>
+                    <Image fluid className='imgRealizaos' src={chicosDos}  alt='chicos en clase'/>
                     </Col>
 
                     
@@ -214,7 +214,7 @@ const Agenda = () => {
 
             <Col lg={12} md={12} className='recoSection' id='reconocimientos'>
                 <h1 className='proximosTalleres'>RECONOCIMIENTOS</h1>
-                <Image src={recoRosa} alt='icono' />
+                <Image fluid src={recoRosa} alt='icono' />
             </Col>
 
 

@@ -56,7 +56,7 @@ const QuienesSomos = () => {
 
         <Row xxl={12} xl={12} lg={12} md={12} className='parteDos margen'>
             <Col className='imagenHis' xxl={4} xl={4} md={12} sm={12}>
-                <Image className='imgHistoria' src={historia} />
+                <Image fluid className='imgHistoria' src={historia} />
             </Col>
             <Col xxl={6} xl={7} lg={6} md={12} sm={12} >
                 <p className='tituloQuienesHistoria'>NUESTRA HISTORIA</p>
@@ -72,7 +72,7 @@ const QuienesSomos = () => {
                 </p>
             </Col>
             <Col className='imagenHis' xxl={4} xl={4} md={12} sm={12} >
-                <Image className='imgHistoria' src={nosotros} />
+                <Image fluid className='imgHistoria' src={nosotros} />
             </Col>
         </Row>
 

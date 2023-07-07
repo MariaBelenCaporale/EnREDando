@@ -2,7 +2,7 @@ import './Colaboracion.css';
 import aporte from '../../components/Assets/aporte.png';
 import manos from '../../components/Assets/manos.png';
 import gente from '../../components/Assets/gente.png';
-import { Link, NavLink } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 
 import { Col, Container, Image, Row } from 'react-bootstrap';
 const Colaboracion = () => {

@@ -1,6 +1,6 @@
 import contacto from '../../components/Assets/contacto.png';
 import './Contacto.css';
-import { Link, NavLink } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 
 const Contacto = () => {

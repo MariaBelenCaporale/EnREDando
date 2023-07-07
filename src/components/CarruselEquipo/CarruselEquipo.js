@@ -23,7 +23,7 @@ function Carrusel() {
           <img src={grupoTres} alt="Imagen de carruse" 
             className='d-block w-100 carrusel' />
         </Carousel.Item>
-        {/* Add more Carousel.Items for additional slides */}
+
       </Carousel>
     );
   }

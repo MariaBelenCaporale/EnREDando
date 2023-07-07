@@ -1,14 +1,14 @@
 import './Footer.css';
 import { Col, Container, Row } from 'react-bootstrap';
 import logo from '../Assets/logo.png'
-import mail from '../Assets/mail.png';
+
 
 import íconofb from '../Assets/íconofb.png';
 import íconoinstagram from '../Assets/íconoinstagram.png';
 import iconoTwitter from '../Assets/iconoTwitter.png';
 import íconolinkedin from '../Assets/íconolinkedin.png';
 import { Link, NavLink } from 'react-router-dom';
-import QuienesSomos from '../../Pages/QuienesSomos/QuienesSomos';
+
 
 
 
@@ -94,14 +94,6 @@ const Footer = () => {
                 </Col>
             </Row>
 
-           
-
-
-           
-
-          
-
-  
         </Container>
         
     );

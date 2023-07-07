@@ -7,8 +7,8 @@ import iconoTwitter from '../Assets/iconoTwitter.png';
 import íconolinkedin from '../Assets/íconolinkedin.png';
 
 import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import { Link, NavLink } from 'react-router-dom';
+
+import { Link} from 'react-router-dom';
 import React from 'react';
 import './Redes.css';
 

@@ -1,14 +1,14 @@
 import logo from '../Assets/logo.png';
-import { Col, Container, Image, Row } from 'react-bootstrap';
+import { Col, Container} from 'react-bootstrap';
 
 
 import './NavBar.css';
 import { NavLink } from 'react-router-dom';
-// import BurguerButton from './BurguerButton';
+
 
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';import React, { useState } from 'react';
+import React, { useState } from 'react';
 import Redes from './Redes';
 
 
